@@ -1,7 +1,17 @@
+body {
+    background: #fafafa;
+}
+
+.carousel {
+    width: 700px;
+    height: 150px;
+    margin: 0 auto;
+}
+
 .carousel-hider {
     width: 600px;
-    overflow: hidden;
     float: left;
+    overflow: hidden;
 }
 
 .carousel-list {
@@ -29,8 +39,8 @@
 .carousel-arrow-right {
     width: 20px;
     height: 20px;
-    background-size: cover;
     margin-top: 50px;
+    background-size: cover;
     float: left;
 }
 
