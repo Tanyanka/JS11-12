@@ -1,61 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: #fafafa;
 }
 
-.carousel {
-    width: 700px;
-    height: 150px;
-    margin: 0 auto;
-}
-
-.carousel-hider {
+section {
     width: 600px;
-    float: left;
-    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    border: 2px solid #eee;
 }
 
-.carousel-list {
-    position: relative;
-    width: 10000px;
-    padding: 0;
-    list-style: none;
-}
-
-.carousel-element {
-    display: block;
-    margin-right: 25px;
-    float: left;
-}
-
-.carousel-element img {
-    max-width: 100px;
-}
-
-.carousel-element p {
+section h1 {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.carousel-arrow-left,
-.carousel-arrow-right {
-    width: 20px;
-    height: 20px;
-    margin-top: 50px;
-    background-size: cover;
-    float: left;
+section img {
+    display: block;
+    margin: 0 auto;
 }
 
-.carousel-arrow-left:hover,
-.carousel-arrow-right:hover {
-    cursor: pointer;
+.about {
+    margin-top: 10px;
+    padding: 10px 5px;
 }
 
-.carousel-arrow-left {
-    margin-right: 25px;
-    background-image: url(../img/arrow-left.svg);
-
-}
-
-.carousel-arrow-right {
-    margin-left: 25px;
-    background-image: url(../img/arrow-right.svg);
+.phrase {
+    margin: 10px 0;
+    padding-left: 30px;
 }
